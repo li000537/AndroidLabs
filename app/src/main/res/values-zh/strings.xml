@@ -9,6 +9,7 @@
     <string name="radioButton">按钮</string>
     <string name="checkBox">选定</string>
     <string name="switch_message">这是做什么的?</string>
+    <string name="start_button">我是按钮</string>
     <string name="startChat">开始对话</string>
     <string name="button_send">发送</string>
 </resources>

@@ -11,6 +11,7 @@
     <string name="dialog_message">Do you want to finish the activity?</string>
     <string name="dialog_title">Alert</string>
     <string name="dialog_OK">OK</string>
+    <string name="start_button">I am a Button</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="startChat">Start Chat</string>
     <string name="button_send">Send</string>
