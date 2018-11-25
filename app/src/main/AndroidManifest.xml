@@ -2,9 +2,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.emma.androidlabs">
 
+    <supports-screens android:requiresSmallestWidthDp="600" />
+
+
     <uses-feature
         android:name="android.hardware.camera"
         android:required="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -22,7 +28,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ListItemActivity" />
-        <activity android:name=".NewChatWindow"></activity>
+        <activity android:name=".NewChatWindow" />
+        <activity android:name=".WeatherForecast" />
+        <activity android:name=".MessageDetails"></activity>
     </application>
 
 </manifest>

@@ -17,6 +17,7 @@ public class StartActivity extends Activity {
 
          final Button button = (Button)findViewById(R.id.button);
          final Button button_chat = (Button)findViewById(R.id.button_chat);
+         final Button button_weather = (Button)findViewById(R.id.button_weather) ;
 
          button.setOnClickListener(new View.OnClickListener(){
              public void onClick(View v){
@@ -29,6 +30,12 @@ public class StartActivity extends Activity {
                Intent intent = new Intent(StartActivity.this, NewChatWindow.class);
                startActivity(intent);
                  Log.i(ACTIVITY_NAME,"User clicked Start Chat");
+             }
+         });
+         button_weather.setOnClickListener(new View.OnClickListener(){
+             public void onClick(View v) {
+                 Intent intent = new Intent(StartActivity.this, WeatherForecast.class);
+                 startActivity(intent);
              }
          });
 
